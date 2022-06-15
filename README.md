@@ -1,8 +1,10 @@
 # Lp2wiegand
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/lp2wiegand`. To experiment with that code, run `bin/console` for an interactive prompt.
+Convert licence plate into Wiegand 26 Bit facility code and card number format.
 
-TODO: Delete this and the text above, and describe your gem
+This is just a ruby fork of https://github.com/looorent/anpr-wiegand
+
+All thanks to him/her for implementation.
 
 ## Installation
 
@@ -16,7 +18,10 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+Add it into your project via bundler and simply use
+```ruby
+Lp2wiegand.convert_to_wiegand('licence_plate')
+```
 
 ## Development
 
