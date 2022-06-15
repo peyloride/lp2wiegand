@@ -1,3 +1,6 @@
+# Notice
+This gem is not production ready now, it's now in early-alpha phase. Use with caution.
+
 # Lp2wiegand
 
 Convert licence plate into Wiegand 26 Bit facility code and card number format.
